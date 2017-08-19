@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(name='Mastodon.py',
-      version='1.0.8',
+      version='1.0.8-2',
       description='Python wrapper for the Mastodon API',
       packages=['mastodon'],
       setup_requires=['pytest-runner'],
       tests_require=['pytest'],
-      install_requires=['requests', 'dateutil', 'six'],
+      install_requires=['requests', 'python-dateutil', 'six'],
       url='https://github.com/halcy/Mastodon.py',
       author='Lorenz Diener',
       author_email='lorenzd+mastodonpypypi@gmail.com',
