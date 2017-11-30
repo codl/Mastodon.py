@@ -1,6 +1,6 @@
 from setuptools import setup
 
-test_deps = ['pytest', 'pytest-cov', 'vcrpy', 'pytest-vcr', 'pytest-mock']
+test_deps = ['pytest', 'pytest-cov', 'vcrpy', 'pytest-vcr', 'pytest-mock', 'tox']
 extras = {
       "test": test_deps
 }
